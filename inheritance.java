@@ -1,21 +1,16 @@
 
 class animal {
 String name;
-
-    public String getName() {
+public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
+    }public void setName(String name) {
         this.name = name;
         System.out.println("there are many variety of animals");
     }
 }
 class dog extends animal{
     String voice;
-
     public String getVoice() {
-
         return voice;
     }
 

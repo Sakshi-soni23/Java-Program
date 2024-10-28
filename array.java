@@ -243,9 +243,22 @@ if(arr[i]>max){
 //            System.out.println();
 //        }
         //convert array into arraylist
-        String s[]={"sa","op","lpa","ako"};
-        ArrayList list =new ArrayList<>(Arrays.asList(s));
-        System.out.println(list);
+//        String s[]={"sa","op","lpa","ako"};
+//        ArrayList list =new ArrayList<>(Arrays.asList(s));
+//        System.out.println(list);
+
+        int [] nums ={2,5,7};
+        int target =9;
+        int sum=0;
+        for(int i=0;i<nums.length;i++){
+            for(int j=i+1;j<nums.length;j++){
+                sum=nums[i]+nums[j];
+                if(sum==target){
+                    System.out.println(i);
+                    System.out.println(j);
+                }
+            }
+        }
     }
 }
 
