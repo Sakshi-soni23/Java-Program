@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class practice2set {
-    public static void main(String[] args) {
+
 //        float a = 7f/4f*9f/2f;
 //        System.out.println(a);
         // question 2 encrypting and decrypting
@@ -32,8 +32,31 @@ public class practice2set {
 
          */
         //question 4 find the value of a
-        int x=7;
-        int a = x*(49/7)+(35/7);
-        System.out.println(a);
-}
+//        int x=7;
+//        int a = x*(49/7)+(35/7);
+//        System.out.println(a);
+public static void main(String[] args) {
+
+        System.out.print( "    +");
+    System.out.print(" '''''' ");
+    System.out.print("+");
+    System.out.println();
+    System.out.print(" [ ");
+    System.out.print(" |");
+    System.out.print("  o");
+    System.out.print(" o  ");
+    System.out.print(" |");
+    System.out.print("  ]");
+ System.out.println();
+    System.out.print("    |");
+    System.out.print("   ^");
+    System.out.print("    |");
+    System.out.println();
+    System.out.print("    |");
+    System.out.print(" ' _ ' ");
+    System.out.println(" |");
+
+    System.out.print("    +--------+ ");
+
+    }
     }
